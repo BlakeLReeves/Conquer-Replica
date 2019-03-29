@@ -103,7 +103,6 @@ a {
     margin-left: -15px;
     text-align: center;
     box-sizing: border-box;
-
 }
 
 .first-group-content:after {
@@ -200,4 +199,92 @@ a {
 
 .col-3-btn {
     background: #852406;
+}
+
+/*Blog area*/
+
+.blog-area {
+    margin: 60px 0px;
+}
+
+.second-group-container {
+    width: 750px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.second-group-content {
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.second-group-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-4-container, .col-5-container {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    background: #F2F2F2;
+    padding-bottom: 25px;
+    max-width: 555px;
+    margin: 0 auto;
+}
+
+.second-group-img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    vertical-align: middle;
+}
+
+.col-4-title, .col-5-title {
+    color: #666;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.col-4-text, .col-5-text {
+    margin-bottom: 21px;
+    padding: 27px;
+    text-align: left;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btn-span {
+    margin-left: 0;
+}
+
+.col-4-btn, .col-5-btn {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #666;
+    font-size: 18px;
+    padding: 10px 30px;
 }
