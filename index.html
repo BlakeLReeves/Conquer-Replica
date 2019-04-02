@@ -12,10 +12,10 @@
 <body>
     <div class="nav-container">
         <ul class="nav-items">
-            <li class="list"><a href="#">Homepage</a></li>
-            <li class="list"><a href="#">About Us</a></li>
-            <li class="list"><a href="#">Services</a></li>
-            <li class="list"><a href="#">Contact</a></li>
+            <li class="list"><a class="nav-links" href="#">Homepage</a></li>
+            <li class="list"><a class="nav-links" href="#">About Us</a></li>
+            <li class="list"><a class="nav-links" href="#">Services</a></li>
+            <li class="list"><a class="nav-links" href="#">Contact</a></li>
         </ul>
     </div>
     <header class="pimg1">
@@ -74,38 +74,46 @@
         <div class="second-group-container">
             <div class="second-group-content">
                 <div class="col-4-container">
-                    <img class="second-group-img" src="./img/2-1.jpg" alt="img">
-                    <h2 class="col-4-title">Two Column Left Side</h2>
-                    <p class="col-4-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut
-                        cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
-                        suscipit.
-                        Sed in leo sit amet velit finibus pretium.
-                        <br>
-                        <br>
-                        Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed
-                        tincidunt
-                        massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in
-                        blandit metus.
-                    </p>
-                    <span class="btn-span"><button type="button" class="col-4-btn">Read More</button></span>
+                    <div class="blog-content">
+                        <img class="second-group-img" src="./img/2-1.jpg" alt="img">
+                        <h2 class="col-4-title">Two Column Left Side</h2>
+                        <p class="col-4-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus,
+                            ut
+                            cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
+                            suscipit.
+                            Sed in leo sit amet velit finibus pretium.
+                            <br>
+                            <br>
+                            Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed
+                            tincidunt
+                            massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna,
+                            in
+                            blandit metus.
+                        </p>
+                        <span class="btn-span"><button type="button" class="col-4-btn">Read More</button></span>
+                    </div>
                 </div>
                 <div class="col-5-container">
-                    <img class="second-group-img" src="./img/2-2.jpg" alt="img">
-                    <h2 class="col-5-title">Two Column Right Side</h2>
-                    <p class="col-5-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut
-                        cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
-                        suscipit.
-                        Sed in leo sit amet velit finibus pretium.
-                        <br>
-                        <br>
-                        Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed
-                        tincidunt
-                        massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in
-                        blandit metus.
-                    </p>
-                    <span><button type="button" class="col-5-btn">Read More</button></span>
+                    <div class="blog-content">
+                        <img class="second-group-img" src="./img/2-2.jpg" alt="img">
+                        <h2 class="col-5-title">Two Column Right Side</h2>
+                        <p class="col-5-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus,
+                            ut
+                            cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
+                            suscipit.
+                            Sed in leo sit amet velit finibus pretium.
+                            <br>
+                            <br>
+                            Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed
+                            tincidunt
+                            massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna,
+                            in
+                            blandit metus.
+                        </p>
+                        <span><button type="button" class="col-5-btn">Read More</button></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,7 +152,7 @@
                         <h2 class="mountain-title">Column Two</h2>
                         <p class="mountain-text">Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in
                             tincidunt purus pretium quis.</p>
-                        <button class="service-btn">Read It</button>
+                        <button type="button" class="service-btn">Read It</button>
                         <br>
                         <div class="service-row"></div>
                     </div>
@@ -164,7 +172,7 @@
                         <h2 class="fall-title">Column Four</h2>
                         <p class="fall-text">Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in
                             tincidunt purus pretium quis.</p>
-                        <button class="service-btn">Details</button>
+                        <button type="button" class="service-btn">Details</button>
                         <br>
                         <div class="service-row"></div>
                     </div>
@@ -240,6 +248,29 @@
             </div>
         </div>
     </section>
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="top-row">
+                <div class="top-position">
+                    <h1 class="footer-title">Use it free!</h1>
+                    <p class="footer-text">
+                        “Conquer is free Bootstrap template from templatemo website.
+                        <br>
+                        No backlink is required to use this layout.”
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-container">
+            <div class="bottom-row">
+                <div class="bottom-position">
+                    <p class="copy">Copyright © 2084 Your Company Name | Design: <a class="footer-link" target="_blank"
+                            rel="nofollow noopener" href="//www.templatemo.com">Templatemo</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
