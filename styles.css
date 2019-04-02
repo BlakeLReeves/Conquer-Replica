@@ -204,12 +204,24 @@ ul li.active a {
     background: #178A27;
 }
 
+.col-1-btn:hover {
+    background: #178F47;
+}
+
 .col-2-btn {
     background: #1686C1;
 }
 
+.col-2-btn:hover {
+    background: #1686F9;
+}
+
 .col-3-btn {
     background: #852406;
+}
+
+.col-3-btn:hover {
+    background: red;
 }
 
 /*Blog area*/
@@ -302,6 +314,10 @@ ul li.active a {
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
+}
+
+.col-4-btn:hover, .col-5-btn:hover {
+    background: #ccc;
 }
 
 /*Services*/
@@ -457,6 +473,10 @@ ul li.active a {
     cursor: pointer;
 }
 
+.service-btn:hover {
+    background: #ccc;
+}
+
 .service-row {
     padding: 10px 20px;
     text-align: left;
@@ -538,6 +558,10 @@ ul li.active a {
     margin-top: 15px;
     transition: all 0.3s ease;
     cursor: pointer;
+}
+
+.lifeguard-btn:hover {
+    background: #ccc;
 }
 
 /*Contact*/
