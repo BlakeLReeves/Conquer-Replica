@@ -4,6 +4,7 @@ body, html {
     height: 100%;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     color: #666;
+    scroll-behavior: smooth;
 }
 
 /*Navbar*/
@@ -49,6 +50,10 @@ ul {
 
 .nav-links:hover {
     background: #49505F;
+}
+
+ul li.active a {
+    background-color: #49505F;
 }
 
 /*Homepage*/
